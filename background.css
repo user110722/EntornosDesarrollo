@@ -1,0 +1,42 @@
+.bg-cuadricula{
+    background:
+      repeating-linear-gradient(
+        90deg,
+        var(--dark-bg) ,
+        var(--dark-bg)5px,
+        transparent 5px,
+        transparent 10px
+        ), 
+        repeating-linear-gradient(
+          0deg, 
+          var(--dark-bg) ,
+          var(--dark-bg)5px,
+          transparent 5px,
+          transparent 10px
+      )
+      hsl(0, 90%, 45%);
+      
+}
+.bg-cuadricula--rotate{
+    background:
+      repeating-linear-gradient(
+        45deg,
+        var(--dark-bg) ,
+        var(--dark-bg)5px,
+        transparent 5px,
+        transparent 10px
+        ), 
+        repeating-linear-gradient(
+          -45deg, 
+          var(--dark-bg) ,
+          var(--dark-bg)5px,
+          transparent 5px,
+          transparent 10px
+      )
+      hsl(0, 90%, 45%);
+
+}
+.bg-img{
+    background: url(wallpaper02.jpg);
+    background-position: -80% 20%;
+}
