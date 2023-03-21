@@ -22,96 +22,43 @@ main{
 #content{
     width: 605px;
     height: 505px;
-    /* background: repeating-linear-gradient(#2563eb ,#4f46e5 ,40%,#7c3aed); */
     /* border: 1px solid blue; */
-    background:
-    
-    /* repeating-linear-gradient(
-        90deg,
-        transparent,
-        transparent 50px,
-        rgba(255, 127, 0, 0.25) 50px,
-        rgba(255, 127, 0, 0.25) 56px,
-        transparent 56px,
-        transparent 63px,
-        rgba(255, 127, 0, 0.25) 63px,
-        rgba(255, 127, 0, 0.25) 69px,
-        transparent 69px,
-        transparent 116px,
-        rgba(255, 206, 0, 0.25) 116px,
-        rgba(255, 206, 0, 0.25) 166px)
-      ,  */
-      /* repeating-linear-gradient(
-        0deg,
-        transparent,
-        transparent 50px,
-        rgba(255, 127, 0, 0.25) 50px,
-        rgba(255, 127, 0, 0.25) 56px,
-        transparent 56px,
-        transparent 63px,
-        rgba(255, 127, 0, 0.25) 63px,
-        rgba(255, 127, 0, 0.25) 69px,
-        transparent 69px,
-        transparent 116px,
-        rgba(255, 206, 0, 0.25) 116px,
-        rgba(255, 206, 0, 0.25) 166px
-      ),  */
+}
+.cuadricula{
+  background:
+    repeating-linear-gradient(
+      90deg,
+      var(--light-bg) ,
+      var(--light-bg)5px,
+      transparent 5px,
+      transparent 10px
+      ), 
       repeating-linear-gradient(
-        90deg,
-        /* #828a88 ,
-        #828a88 5px,
-        transparent 5px,
-        transparent 10px */
+        0deg, 
         var(--light-bg) ,
         var(--light-bg)5px,
         transparent 5px,
         transparent 10px
-        ), 
-        repeating-linear-gradient(
-          0deg, 
-          var(--light-bg) ,
-          var(--light-bg)5px,
-          transparent 5px,
-          transparent 10px
-          /* #828a88 ,
-          #828a88 5px,
-          transparent 5px,
-          transparent 10px */
-      )
-      hsl(0, 90%, 45%);
-    /* background: repeating-linear-gradient(
-        90deg,
-        transparent 0 50px,
-        rgba(255, 127, 0, 0.25) 50px 56px,
-        transparent 56px 63px,
-        rgba(255, 127, 0, 0.25) 63px 69px,
-        transparent 69px 116px,
-        rgba(255, 206, 0, 0.25) 116px 166px
-      ), repeating-linear-gradient(
-        0deg,
-        transparent 0 50px,
-        rgba(255, 127, 0, 0.25) 50px 56px,
-        transparent 56px 63px,
-        rgba(255, 127, 0, 0.25) 63px 69px,
-        transparent 69px 116px,
-        rgba(255, 206, 0, 0.25) 116px 166px
-      ), repeating-linear-gradient(
-        -45deg,
-        transparent 0 5px,
-        rgba(143, 77, 63, 0.25) 5px 10px
-      ), repeating-linear-gradient(45deg, transparent 0 5px, rgba(
-            143,
-            77,
-            63,
-            0.25
-          ) 5px 10px);
-   */
-}
+    )
+    hsl(0, 90%, 45%);
+    
+  }
+.cuadricula--rotate{
+  background:
+    repeating-linear-gradient(
+      45deg,
+      var(--light-bg) ,
+      var(--light-bg)5px,
+      transparent 5px,
+      transparent 10px
+      ), 
+      repeating-linear-gradient(
+        -45deg, 
+        var(--light-bg) ,
+        var(--light-bg)5px,
+        transparent 5px,
+        transparent 10px
+    )
+    hsl(0, 90%, 45%);
 
-.box{
-    min-width: 8%;
-    min-height: 8%;
-    width: 50px;
-    height: 50px;
-    /* border: 1px solid red; */
 }
